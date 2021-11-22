@@ -18,6 +18,17 @@ We will explore the geometric intuition hiding in
 
 $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
 
+<form action="/action_page.php">
+  <label for="height">Height:</label>
+  <input type="number" id="height" name="height"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+  var x = window.prompt("Enter your name: ");
+  alert("Name: " + name);
+</script>
+
 <script type="text/tikz">
   \begin{tikzpicture}
     \draw (0,0) -- (0,5);
