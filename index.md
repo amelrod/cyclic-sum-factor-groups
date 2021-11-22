@@ -24,20 +24,10 @@ $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
   <input type="submit" value="Submit">
 </form> -->
 
-<form id="myForm" action="/action_page.php">
-  <label for="height">Height:</label>
-  <input type="number" id="height" name="height" value="1"><br><br>
-</form>
-
-<button onclick="myFunction()"> Try it </button>
-
 <script type="text/tikz">
-  function myFunction() {
-    var x = document.getElementById("myForm").elements[0].value;
-    document.getElementById("demo").innerHTML = x;
-  }
+  var h = 5;
   \begin{tikzpicture}
-    \draw (0,0) -- (0,parseInt(x));
+    \draw (0,0) -- (0,h);
     \draw (0,0) -- (6,0);
   \end{tikzpicture}
 </script>
