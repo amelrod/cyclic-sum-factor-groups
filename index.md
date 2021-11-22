@@ -25,7 +25,7 @@ $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
 </form>
 
 <script>
-  var x = window.prompt("Enter your name: ");
+  var name = window.prompt("Enter your name: ");
   alert("Name: " + name);
 </script>
 
