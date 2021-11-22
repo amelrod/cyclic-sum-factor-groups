@@ -12,7 +12,7 @@
   <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 </head>
 
-#Direct Sums of Cyclic Groups
+Direct Sums of Cyclic Groups
 
 We will explore the geometric intuition hiding in 
 
