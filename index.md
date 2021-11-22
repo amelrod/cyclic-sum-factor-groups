@@ -1,4 +1,18 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      inlineMath: [['$','$']]
+    }
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 ## Welcome to GitHub Pages
+
+witness my equation
+
+$$ x^2 = y + \sqrt{58z} $$
 
 You can use the [editor on GitHub](https://github.com/amelrod/cyclic-sum-factor-groups/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
