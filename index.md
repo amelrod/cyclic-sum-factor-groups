@@ -37,7 +37,7 @@ $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
     document.getElementById("demo").innerHTML = x;
   }
   \begin{tikzpicture}
-    \draw (0,0) -- (0,x);
+    \draw (0,0) -- (0,parseInt(x));
     \draw (0,0) -- (6,0);
   \end{tikzpicture}
 </script>
