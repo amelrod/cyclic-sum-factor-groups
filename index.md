@@ -34,15 +34,15 @@ $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
   alert("Name: " + name);
 </script> -->
 
-<?
+<!-- <?
 $height = rand(2,5);
 $width = rand(2,5);
-?>
+?> -->
 
 <script type="text/tikz">
   \begin{tikzpicture}
-    \draw (0,0) -- (0,<? echo $height; ?>);
-    \draw (0,0) -- (<? echo $width; ?>,0);
+    \draw (0,0) -- (0,5);
+    \draw (0,0) -- (6,0);
   \end{tikzpicture}
 </script>
 
