@@ -10,9 +10,7 @@
 <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 
-witness my equation
-
-$$ x^2 = y + \sqrt{58z} $$
+We will explore geometric intuition hiding in $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
 
 <script type="text/tikz">
   \begin{tikzpicture}
