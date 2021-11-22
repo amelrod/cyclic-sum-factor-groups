@@ -12,7 +12,9 @@
   <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 </head>
 
-We will explore geometric intuition hiding in 
+#Direct Sums of Cyclic Groups
+
+We will explore the geometric intuition hiding in 
 
 $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
 
