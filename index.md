@@ -35,9 +35,8 @@ $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
 </script> -->
 
 <script type="text/tikz">
-  var height = document.getElementById("height").value;
   \begin{tikzpicture}
-    \draw (0,0) -- (0,height);
+    \draw (0,0) -- (0,document.getElementById("height").value);
     \draw (0,0) -- (6,0);
   \end{tikzpicture}
 </script>
