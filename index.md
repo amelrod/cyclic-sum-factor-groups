@@ -19,20 +19,9 @@ We will explore the geometric intuition hiding in
 $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
 
 <script type="text/tikz">
-    \begin{tikzpicture}[
-      roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm},
-      squarednode/.style={rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm},
-      ]
-      %Nodes
-      \node[squarednode]      (maintopic)                              {2};
-      \node[roundnode]        (uppercircle)       [above=of maintopic] {1};
-      \node[squarednode]      (rightsquare)       [right=of maintopic] {3};
-      \node[roundnode]        (lowercircle)       [below=of maintopic] {4};
-
-      %Lines
-      \draw[->] (uppercircle.south) -- (maintopic.north);
-      \draw[->] (maintopic.east) -- (rightsquare.west);
-      \draw[->] (rightsquare.south) .. controls +(down:7mm) and +(right:7mm) .. (lowercircle.east);
+  \begin{tikzpicture}
+    \draw (0,0) -- (0,5);
+    \draw (0,0) -- (6,0);
   \end{tikzpicture}
 </script>
 
