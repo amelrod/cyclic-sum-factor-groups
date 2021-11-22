@@ -25,7 +25,7 @@ $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
 </form> -->
 
 <script type="text/tikz">
-  var h = 5;
+  let h = 5;
   \begin{tikzpicture}
     \draw (0,0) -- (0,h);
     \draw (0,0) -- (6,0);
