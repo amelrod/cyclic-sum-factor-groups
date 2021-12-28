@@ -18,17 +18,8 @@ We will explore the geometric intuition hiding in
 
 $$ (\mathbb{Z}_m \oplus \mathbb{Z}_n)/ \langle x,y \rangle $$
 
-<!-- <form method="GET">
-  <label for="height">Height:</label>
-  <input type="number" id="height" name="height"><br><br>
-  <input type="submit" value="Submit">
-</form> -->
 
-<script type="text/tikz">
-  let h = 5;
-  \begin{tikzpicture}
-    \draw (0,0) -- (0,h);
-    \draw (0,0) -- (6,0);
-  \end{tikzpicture}
-</script>
+$5^3 = 125$
+
+It follows from some trivial arithmetic and multiplication that $3*5^2 \sim 75$ and further that $\mathsf{PA} \models \mathsf{ZFC}$.
 
